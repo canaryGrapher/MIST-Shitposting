@@ -14,7 +14,7 @@ const templateGenerator = (date, text) => {
 
 const getShitPostData = async () => {
     let innerHTML_container = "";
-    const shitpostdata = await fetch('https://raw.githubusercontent.com/canaryGrapher/MIST-Shitposting/master/data/shitposts.json');
+    const shitpostdata = await fetch('/data/shitposts.json');
     const parsedShitposts = await shitpostdata.json()
     for (let dummy_incremator = 0; dummy_incremator < parsedShitposts.length; dummy_incremator++) {
         innerHTML_container += templateGenerator(parsedShitposts[dummy_incremator].date, parsedShitposts[dummy_incremator].text)
