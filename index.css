@@ -1,0 +1,75 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #222831;
+}
+
+.dialog-box {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: #363f4d;
+    border-width: 0.1px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner {
+    overflow: hidden;
+}
+
+.top-banner {
+    background-color: #2b313a;
+    height: 10vh;
+    position: relative;
+}
+
+.post-it-zone {
+    overflow-y: scroll;
+    height: 70vh;
+}
+
+.text-message {
+    background-color: #19c488;
+    color: #fafafa;
+}
+
+.message-date {
+    height: 40px;
+    line-height: 20px;
+    padding: 10px;
+    background-color: rgb(146, 184, 253);
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .dialog-box {
+        height: 100vh;
+    }
+    .banner {
+        height: 100vh;
+    }
+    .top-banner {
+        height: 10vh;
+    }
+    .post-it-zone {
+        height: 90vh;
+    }
+}
