@@ -126,4 +126,8 @@ social-link:hover {
         width: 25px;
         padding-right: 2px;
     }
+    .post-info-cards 
+    {
+        box-shadow: 10px 10px 30px rgba(0,0,0,0.4);
+    }
 }
