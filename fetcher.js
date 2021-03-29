@@ -31,4 +31,5 @@ const getShitPostData = async () => {
 }
 
 
+//running the function to render posts
 getShitPostData()
