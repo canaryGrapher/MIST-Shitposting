@@ -2,6 +2,7 @@
 The shitposting portal for Manipal Information Security Team. Now you can submit your own shitpost for https://shitpost.wearemist.in and be naughty. Anonymity guaranteed.
 Club related shit only!!
 
+![Logo Designs (5)](https://user-images.githubusercontent.com/27415791/155775832-469212e0-1f78-422b-bd11-95b1c0cb12e9.jpg)
 
 ## Guidelines for shitposting
 Posts are only pushed to this repo if they follow the club guidelines for shitposting:
